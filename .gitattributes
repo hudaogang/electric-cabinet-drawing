@@ -1,0 +1,7 @@
+# 源码统一按 LF 存储；Windows 批处理保持 CRLF，避免 cmd 解析问题。
+* text=auto
+*.bat text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf

@@ -1,0 +1,2 @@
+# 运行依赖（Tkinter 随 Python 官方安装包提供，无需单独安装）
+matplotlib>=3.7

@@ -1,0 +1,90 @@
+{
+  "_note": "面板元件库。outline=元件外形轮廓（图中虚线），cutout=实际开孔（图中实线）；单位 mm。circle: d；rect: w/h/r。custom=true 的条目可在任务里用 w/h/d 覆写尺寸。",
+  "pushbutton_22": {
+    "name": "按钮 Φ22",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 22.5},
+    "outline": {"type": "circle", "d": 30}
+  },
+  "indicator_22": {
+    "name": "指示灯 Φ22",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 22.5},
+    "outline": {"type": "circle", "d": 30}
+  },
+  "selector_22": {
+    "name": "转换开关 Φ22",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 22.5},
+    "outline": {"type": "circle", "d": 35}
+  },
+  "key_switch_22": {
+    "name": "钥匙开关 Φ22",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 22.5},
+    "outline": {"type": "circle", "d": 35}
+  },
+  "estop_22": {
+    "name": "急停按钮 Φ22",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 22.5},
+    "outline": {"type": "circle", "d": 40}
+  },
+  "indicator_30": {
+    "name": "指示灯 Φ30",
+    "category": "面板元件",
+    "cutout": {"type": "circle", "d": 30.5},
+    "outline": {"type": "circle", "d": 40}
+  },
+  "ammeter_96": {
+    "name": "电流表 96×96",
+    "category": "仪表",
+    "cutout": {"type": "rect", "w": 92, "h": 92, "r": 0},
+    "outline": {"type": "rect", "w": 96, "h": 96, "r": 2}
+  },
+  "voltmeter_96": {
+    "name": "电压表 96×96",
+    "category": "仪表",
+    "cutout": {"type": "rect", "w": 92, "h": 92, "r": 0},
+    "outline": {"type": "rect", "w": 96, "h": 96, "r": 2}
+  },
+  "hmi_7": {
+    "name": "触摸屏 7寸",
+    "category": "HMI",
+    "cutout": {"type": "rect", "w": 192, "h": 138, "r": 3},
+    "outline": {"type": "rect", "w": 204, "h": 150, "r": 4}
+  },
+  "hmi_10": {
+    "name": "触摸屏 10寸",
+    "category": "HMI",
+    "cutout": {"type": "rect", "w": 260, "h": 202, "r": 3},
+    "outline": {"type": "rect", "w": 272, "h": 214, "r": 4}
+  },
+  "fan_filter_120": {
+    "name": "通风过滤网 120×120",
+    "category": "辅材",
+    "cutout": {"type": "rect", "w": 122, "h": 122, "r": 4},
+    "outline": {"type": "rect", "w": 150, "h": 150, "r": 6}
+  },
+  "custom_rect": {
+    "name": "自定义方孔",
+    "category": "自定义",
+    "cutout": {"type": "rect", "w": 100, "h": 100, "r": 0},
+    "outline": {"type": "rect", "w": 100, "h": 100, "r": 0},
+    "custom": true
+  },
+  "custom_circle": {
+    "name": "自定义圆孔",
+    "category": "自定义",
+    "cutout": {"type": "circle", "d": 50},
+    "outline": {"type": "circle", "d": 50},
+    "custom": true
+  },
+  "custom_slot": {
+    "name": "自定义腰型孔",
+    "category": "自定义",
+    "cutout": {"type": "slot", "w": 100, "h": 30},
+    "outline": {"type": "slot", "w": 100, "h": 30},
+    "custom": true
+  }
+}

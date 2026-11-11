@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 打包产物（由 build_exe.bat / build_folder.bat 生成）
+build/
+build_onedir/
+dist/
+*.spec
+
+# 运行输出：只保留目录占位，不提交测试图纸
+output/*
+!output/.gitkeep
+
+# 临时文件
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,308 @@
+{
+  "cabinet": {
+    "template": "console",
+    "W": 1200,
+    "H": 1100,
+    "D": 750,
+    "base_height": 100,
+    "door_gap": 2.0,
+    "door_ratio": 0.5,
+    "hinge": "left",
+    "door_margin": 12,
+    "door_bottom_gap": 3.0,
+    "door_thickness": 25.0,
+    "panel_thickness": 1.5,
+    "material": "冷轧钢板",
+    "color": "RAL7035",
+    "ip": "IP54",
+    "plate_margin": 30,
+    "plate_bottom_gap": 50,
+    "console_desk_h": 720,
+    "console_top_depth": 250
+  },
+  "cutouts": [
+    {
+      "component": "hmi_10",
+      "x": 600,
+      "y": 980,
+      "label": "HMI1",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 200,
+      "y": 1230,
+      "label": "HL1",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 360,
+      "y": 1230,
+      "label": "HL2",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 520,
+      "y": 1230,
+      "label": "HL3",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 680,
+      "y": 1230,
+      "label": "HL4",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 840,
+      "y": 1230,
+      "label": "HL5",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "indicator_22",
+      "x": 1000,
+      "y": 1230,
+      "label": "HL6",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 200,
+      "y": 1320,
+      "label": "SB1",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 360,
+      "y": 1320,
+      "label": "SB2",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 520,
+      "y": 1320,
+      "label": "SB3",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 680,
+      "y": 1320,
+      "label": "SB4",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 840,
+      "y": 1320,
+      "label": "SB5",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "pushbutton_22",
+      "x": 1000,
+      "y": 1320,
+      "label": "SB6",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "fan_120",
+      "x": 300,
+      "y": 300,
+      "label": "FAN1",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "emergency_22",
+      "x": 900,
+      "y": 300,
+      "label": "SB7",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "front"
+    },
+    {
+      "component": "fan_120",
+      "x": 250,
+      "y": 280,
+      "label": "FAN2",
+      "note": "",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "left"
+    },
+    {
+      "component": "custom_slot",
+      "x": 600,
+      "y": 650,
+      "label": "SL1",
+      "note": "后部出线",
+      "w": 0.0,
+      "h": 0.0,
+      "d": 0.0,
+      "face": "top"
+    }
+  ],
+  "rails": [
+    {
+      "y": 150,
+      "x": 90,
+      "length": 1000,
+      "devices": [
+        {
+          "model": "2P",
+          "qty": 6,
+          "width": 0.0,
+          "height": 0.0,
+          "prefix": "",
+          "note": "",
+          "brand": "",
+          "name": "",
+          "spec": ""
+        },
+        {
+          "model": "3P",
+          "qty": 2,
+          "width": 0.0,
+          "height": 0.0,
+          "prefix": "",
+          "note": "",
+          "brand": "",
+          "name": "",
+          "spec": ""
+        }
+      ]
+    },
+    {
+      "y": 360,
+      "x": 90,
+      "length": 1000,
+      "devices": [
+        {
+          "model": "contactor_18",
+          "qty": 2,
+          "width": 0.0,
+          "height": 0.0,
+          "prefix": "",
+          "note": "",
+          "brand": "",
+          "name": "",
+          "spec": ""
+        },
+        {
+          "model": "terminal_6",
+          "qty": 10,
+          "width": 0.0,
+          "height": 0.0,
+          "prefix": "",
+          "note": "",
+          "brand": "",
+          "name": "",
+          "spec": ""
+        }
+      ]
+    }
+  ],
+  "ducts": [
+    {
+      "x": 20,
+      "y": 80,
+      "length": 420,
+      "width": 40,
+      "orient": "v"
+    },
+    {
+      "x": 20,
+      "y": 470,
+      "length": 1080,
+      "width": 40,
+      "orient": "h"
+    }
+  ],
+  "sheet": {
+    "size": "auto",
+    "scale": "auto",
+    "project": "1200×1100×750 琴式操作台壳体接口图",
+    "drawing_no": "DG-2026-002",
+    "version": "A",
+    "designer": "电气设计",
+    "checker": "机械确认",
+    "date": "",
+    "company": "XX电气自动化有限公司",
+    "remark": ""
+  },
+  "req_set": "console",
+  "custom_requirements": [],
+  "views": [
+    "front",
+    "side",
+    "plan",
+    "internal"
+  ]
+}

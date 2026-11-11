@@ -1,0 +1,183 @@
+{
+  "_note": "柜内器件库。width=在35mm导轨上占用的宽度(mm)，height=器件在板面上的安装高度(mm)，prefix=自动编号前缀，brand/category 用于快速选型，spec=材料表规格/型号（可改成实际品牌型号）。",
+  "1P": {
+    "name": "微型断路器 1P",
+    "brand": "通用",
+    "category": "微型断路器",
+    "width": 18,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47-63 1P"
+  },
+  "2P": {
+    "name": "微型断路器 2P",
+    "brand": "通用",
+    "category": "微型断路器",
+    "width": 36,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47-63 2P"
+  },
+  "3P": {
+    "name": "微型断路器 3P",
+    "brand": "通用",
+    "category": "微型断路器",
+    "width": 54,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47-63 3P"
+  },
+  "4P": {
+    "name": "微型断路器 4P",
+    "brand": "通用",
+    "category": "微型断路器",
+    "width": 72,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47-63 4P"
+  },
+  "leakage_2p": {
+    "name": "漏电保护器 2P",
+    "brand": "通用",
+    "category": "漏电保护",
+    "width": 36,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47LE-63 2P"
+  },
+  "leakage_4p": {
+    "name": "漏电保护器 4P",
+    "brand": "通用",
+    "category": "漏电保护",
+    "width": 72,
+    "height": 85,
+    "prefix": "QF",
+    "spec": "DZ47LE-63 4P"
+  },
+  "fuse_1p": {
+    "name": "熔断器 1P",
+    "brand": "通用",
+    "category": "熔断器",
+    "width": 18,
+    "height": 85,
+    "prefix": "FU",
+    "spec": "RT18-32 1P"
+  },
+  "surge_2p": {
+    "name": "浪涌保护器 2P",
+    "brand": "通用",
+    "category": "浪涌保护",
+    "width": 36,
+    "height": 90,
+    "prefix": "SPD",
+    "spec": "DZ47Y-40 2P"
+  },
+  "contactor_09": {
+    "name": "交流接触器 9A",
+    "brand": "通用",
+    "category": "接触器",
+    "width": 45,
+    "height": 85,
+    "prefix": "KM",
+    "spec": "CJX2-0910"
+  },
+  "contactor_12": {
+    "name": "交流接触器 12A",
+    "brand": "通用",
+    "category": "接触器",
+    "width": 45,
+    "height": 85,
+    "prefix": "KM",
+    "spec": "CJX2-1210"
+  },
+  "contactor_18": {
+    "name": "交流接触器 18A",
+    "brand": "通用",
+    "category": "接触器",
+    "width": 54,
+    "height": 85,
+    "prefix": "KM",
+    "spec": "CJX2-1810"
+  },
+  "contactor_25": {
+    "name": "交流接触器 25A",
+    "brand": "通用",
+    "category": "接触器",
+    "width": 65,
+    "height": 90,
+    "prefix": "KM",
+    "spec": "CJX2-2510"
+  },
+  "relay_24": {
+    "name": "中间继电器",
+    "brand": "通用",
+    "category": "继电器",
+    "width": 45,
+    "height": 80,
+    "prefix": "KA",
+    "spec": "JZX-22F/2Z"
+  },
+  "relay_my4": {
+    "name": "中间继电器 MY4",
+    "brand": "通用",
+    "category": "继电器",
+    "width": 45,
+    "height": 80,
+    "prefix": "KA",
+    "spec": "MY4NJ"
+  },
+  "psu_60": {
+    "name": "开关电源 60W",
+    "brand": "通用",
+    "category": "电源",
+    "width": 60,
+    "height": 100,
+    "prefix": "G",
+    "spec": "DR-60-24"
+  },
+  "psu_120": {
+    "name": "开关电源 120W",
+    "brand": "通用",
+    "category": "电源",
+    "width": 65,
+    "height": 125,
+    "prefix": "G",
+    "spec": "DR-120-24"
+  },
+  "psu_240": {
+    "name": "开关电源 240W",
+    "brand": "通用",
+    "category": "电源",
+    "width": 85,
+    "height": 125,
+    "prefix": "G",
+    "spec": "DR-240-24"
+  },
+  "terminal_6": {
+    "name": "端子排 6mm2",
+    "brand": "通用",
+    "category": "端子",
+    "width": 8,
+    "height": 60,
+    "prefix": "X",
+    "spec": "UK-6"
+  },
+  "terminal_10": {
+    "name": "端子排 10mm2",
+    "brand": "通用",
+    "category": "端子",
+    "width": 10,
+    "height": 65,
+    "prefix": "X",
+    "spec": "UK-10"
+  },
+  "custom": {
+    "name": "自定义器件",
+    "brand": "通用",
+    "category": "自定义",
+    "width": 36,
+    "height": 85,
+    "prefix": "E",
+    "spec": "自定义"
+  }
+}

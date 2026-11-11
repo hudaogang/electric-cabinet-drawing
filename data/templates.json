@@ -1,0 +1,28 @@
+{
+  "_note": "柜型模板。enabled=false 表示二期实现，界面中不提供。defaults 为载入模板时的推荐尺寸。",
+  "vertical_single": {
+    "name": "立式控制柜（单门）",
+    "enabled": true,
+    "defaults": {"W": 800, "H": 2000, "D": 400, "base_height": 100, "door_margin": 12, "door_ratio": 0.5}
+  },
+  "vertical_double": {
+    "name": "立式控制柜（双门）",
+    "enabled": true,
+    "defaults": {"W": 1700, "H": 1900, "D": 460, "base_height": 100, "door_margin": 12, "door_ratio": 0.5}
+  },
+  "wallbox": {
+    "name": "壁挂箱 / 端子箱",
+    "enabled": true,
+    "defaults": {"W": 600, "H": 800, "D": 250, "base_height": 0, "door_margin": 10, "door_ratio": 0.5}
+  },
+  "console": {
+    "name": "琴式操作台（斜面）",
+    "enabled": true,
+    "defaults": {
+      "W": 1200, "H": 1100, "D": 750, "base_height": 100,
+      "console_desk_h": 720, "console_top_depth": 250,
+      "door_margin": 12, "door_ratio": 0.5,
+      "plate_margin": 30, "plate_bottom_gap": 50
+    }
+  }
+}

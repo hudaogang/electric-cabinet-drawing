@@ -1,0 +1,94 @@
+{
+  "cabinet": {
+    "template": "vertical_double",
+    "W": 1700,
+    "H": 1900,
+    "D": 460,
+    "base_height": 100,
+    "door_gap": 2,
+    "door_ratio": 0.5,
+    "hinge": "left",
+    "door_margin": 12,
+    "door_bottom_gap": 3,
+    "door_thickness": 25,
+    "panel_thickness": 1.5,
+    "material": "冷轧钢板",
+    "color": "RAL7035",
+    "ip": "IP54",
+    "plate_margin": 30,
+    "plate_bottom_gap": 50
+  },
+  "cutouts": [
+    {"component": "hmi_10", "x": 430, "y": 1450, "label": "HMI1", "note": "人机界面"},
+    {"component": "hmi_7", "x": 430, "y": 1120, "label": "HMI2", "note": ""},
+    {"component": "indicator_22", "x": 180, "y": 920, "label": "HL1", "note": ""},
+    {"component": "indicator_22", "x": 270, "y": 920, "label": "HL2", "note": ""},
+    {"component": "indicator_22", "x": 360, "y": 920, "label": "HL3", "note": ""},
+    {"component": "indicator_22", "x": 450, "y": 920, "label": "HL4", "note": ""},
+    {"component": "indicator_22", "x": 540, "y": 920, "label": "HL5", "note": ""},
+    {"component": "indicator_22", "x": 630, "y": 920, "label": "HL6", "note": ""},
+    {"component": "pushbutton_22", "x": 200, "y": 800, "label": "SB1", "note": ""},
+    {"component": "pushbutton_22", "x": 320, "y": 800, "label": "SB2", "note": ""},
+    {"component": "pushbutton_22", "x": 440, "y": 800, "label": "SB3", "note": ""},
+    {"component": "pushbutton_22", "x": 560, "y": 800, "label": "SB4", "note": ""},
+    {"component": "estop_22", "x": 740, "y": 800, "label": "SB5", "note": "急停"},
+    {"component": "selector_22", "x": 760, "y": 620, "label": "SA1", "note": ""},
+    {"component": "fan_filter_120", "x": 300, "y": 500, "label": "FN1", "note": "通风过滤网"},
+    {"component": "ammeter_96", "x": 1080, "y": 1500, "label": "PA1", "note": ""},
+    {"component": "voltmeter_96", "x": 1230, "y": 1500, "label": "PV1", "note": ""},
+    {"component": "indicator_22", "x": 1080, "y": 1280, "label": "HL7", "note": ""},
+    {"component": "indicator_22", "x": 1170, "y": 1280, "label": "HL8", "note": ""},
+    {"component": "indicator_22", "x": 1260, "y": 1280, "label": "HL9", "note": ""},
+    {"component": "pushbutton_22", "x": 1080, "y": 1140, "label": "SB6", "note": ""},
+    {"component": "pushbutton_22", "x": 1180, "y": 1140, "label": "SB7", "note": ""},
+    {"component": "pushbutton_22", "x": 1280, "y": 1140, "label": "SB8", "note": ""},
+    {"component": "pushbutton_22", "x": 1380, "y": 1140, "label": "SB9", "note": ""},
+    {"component": "selector_22", "x": 1550, "y": 1280, "label": "SA2", "note": ""},
+    {"component": "key_switch_22", "x": 1550, "y": 1140, "label": "SA3", "note": ""},
+    {"component": "estop_22", "x": 1550, "y": 1000, "label": "SB10", "note": "急停"},
+    {"component": "custom_slot", "x": 850, "y": 340, "face": "bottom", "label": "SL1", "note": "底部进线腰型孔", "w": 220, "h": 40, "d": 0},
+    {"component": "custom_slot", "x": 850, "y": 120, "face": "top", "label": "SL2", "note": "顶部出线腰型孔", "w": 220, "h": 40, "d": 0}
+  ],
+  "rails": [
+    {"y": 220, "x": 100, "length": 1440, "devices": [
+      {"model": "2P", "qty": 6}, {"model": "3P", "qty": 4}
+    ]},
+    {"y": 420, "x": 100, "length": 1440, "devices": [
+      {"model": "3P", "qty": 8}
+    ]},
+    {"y": 620, "x": 100, "length": 1440, "devices": [
+      {"model": "2P", "qty": 10}, {"model": "1P", "qty": 4}
+    ]},
+    {"y": 880, "x": 100, "length": 1440, "devices": [
+      {"model": "contactor_09", "qty": 4}, {"model": "relay_24", "qty": 4}
+    ]},
+    {"y": 1200, "x": 100, "length": 1440, "devices": [
+      {"model": "psu_60", "qty": 2}, {"model": "terminal_6", "qty": 12}
+    ]},
+    {"y": 1500, "x": 100, "length": 1440, "devices": [
+      {"model": "2P", "qty": 4}, {"model": "3P", "qty": 2}, {"model": "4P", "qty": 2}
+    ]}
+  ],
+  "ducts": [
+    {"x": 30, "y": 80, "length": 1560, "width": 60, "orient": "v"},
+    {"x": 1550, "y": 80, "length": 1560, "width": 60, "orient": "v"},
+    {"x": 100, "y": 30, "length": 1440, "width": 40, "orient": "h"}
+  ],
+  "sheet": {
+    "size": "auto",
+    "scale": "auto",
+    "project": "1700×1900×460 非标控制柜壳体接口图",
+    "drawing_no": "DG-2026-001",
+    "version": "A",
+    "designer": "电气设计",
+    "checker": "机械确认",
+    "date": "",
+    "company": "XX电气自动化有限公司",
+    "remark": ""
+  },
+  "req_set": "standard",
+  "custom_requirements": [
+    "本图为壳体接口确认图，不含电气原理、接线图及钣金展开图；批量生产前请与电气、机械双方会签确认。"
+  ],
+  "views": ["front", "side", "plan", "internal"]
+}
