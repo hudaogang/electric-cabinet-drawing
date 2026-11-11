@@ -1,6 +1,12 @@
 # 电柜快画（DKK）
 
+[![tests](https://github.com/hudaogang/electric-cabinet-drawing/actions/workflows/tests.yml/badge.svg)](https://github.com/hudaogang/electric-cabinet-drawing/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+
 > 面向非标电柜/电气设计的小工具：输入柜体尺寸、门板开孔和内部器件，自动生成可用于机械加工的**柜体接口图**，输出黑白 CAD 风格的 PDF / SVG / PNG。
+
+GitHub 仓库：<https://github.com/hudaogang/electric-cabinet-drawing>
 
 当前版本：**v0.5.1**（修复导轨新建/拖动交互：新建导轨自动适配安装板、器件不再默认新建导轨、点器件也能整体拖动导轨；保留琴式操作台、快速放器件目录、撤销/重做、DXF/CSV 导出等能力）。支持五个面开孔/腰型孔，安装板内拖动、方向键微调与复制粘贴导轨/线槽。Python + matplotlib + Tkinter，单文件 EXE 打包脚本见 `build_exe.bat`。
 
